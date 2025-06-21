@@ -1,1 +1,9 @@
-Olá meu nome é Thiago
+Para ver se mudou algo = git status
+Para adicionar um arquivo - git add "nome do arquivo.xxx"
+Para adicionar uma lista de arquivos = git add .
+Para adicionar uma nova versão = git commit -m "versão"
+Para suber uma nova versão para o github = git  remote add origin https://github.com/thrcarvalho/projeto1-thiago-deveaprender
+Depois escreva git push
+caso não de certo = git push --set-upstream origin master
+Deu certo!
+
