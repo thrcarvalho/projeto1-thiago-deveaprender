@@ -7,3 +7,24 @@ Depois escreva git push
 caso não de certo = git push --set-upstream origin master
 Deu certo!
 
+Para ver a versão do meu código = git reflog
+
+Para voltar a versão anterior: git reset --hard d9b6af5 (verção inicial)
+
+Olhar esse id >>><<<
+>>>>>6b0516a<<<<< (HEAD -> master, origin/master) HEAD@{0}: commit: mostra como mexer no github usando git
+>>>>>d9b6af5<<<<< HEAD@{1}: commit (initial): commit inicial
+
+Antes de rodar esses resets, tomar cuidado
+
+O que são branchs: Caminhos diferentes para seguir no processo de desenvolvimento
+Paa trablhar em equipe trabalhamos com várias branchs para as equipes. Temos um branch principal que roda os códigos e lateralmente desenvolvemos novas funções. Adicionamos novas funcionalidades colocando a função merge.
+
+Para adiconar uma nova branch = git branch "nome da branch) [stagin = (não está em prod)]
+Para alterar a branch de trabalho = git checkout staging
+
+
+
+
+
+
